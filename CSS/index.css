@@ -1,0 +1,104 @@
+body
+{
+    background-color: rgb(32, 3, 3);
+}
+
+@media screen and (min-width: 780px) 
+{
+    body 
+    {
+        background-color: rgba(175, 172, 172, 0.795);
+    }
+
+    .Content
+    {
+        box-shadow: 10px 15px 25px black;
+    }
+}
+
+header
+{
+    text-align: center;
+    color: blanchedalmond;
+    background-color: blue;
+    margin: -0.8% -0.5% 0 -1%;
+    font-size: 30px;
+    padding-top: 0.2%;
+    padding-bottom: 1px;
+    text-shadow: 10px 10px 20px white;
+    box-shadow: 10px 15px 25px black;
+}
+
+div h1
+{
+    font-size: 170%;
+    text-align: center;
+    background-color: blue;
+    color: ivory;
+    margin: 1% 1% 2% 1%;
+}
+
+.plus
+{
+    float: left;
+}
+
+p
+{
+    margin: 2%;
+}
+
+em
+{
+    font-family: Harrington;
+    font-size: 110%;
+}
+
+body .Content
+{
+    margin: 3% 10% 10% 10%;
+    border: 2px solid black;
+    box-shadow: 10px 15px 25px black;
+    background-color: white;
+}
+
+div ul li
+{
+    display: inline-block;
+    font-size: 150%;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-decoration: none;
+}
+
+div ul li a:visited
+{
+    color: blue;
+}
+
+div ul li a:hover
+{
+    color: ivory;
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.menu
+{
+    text-align: center;
+    position: relative;
+}
+
+.active
+{
+    color: ivory;
+    background-color: rgba(34, 34, 206, 0.644);
+}
+
+.w3-hide{display:none !important}.w3-show-block,.w3-show{display:block !important}.w3-show-inline-block{display:inline-block !important}
+
+.haut
+{
+    float: left;
+    position: relative;
+}
